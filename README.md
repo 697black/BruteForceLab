@@ -17,6 +17,6 @@ git clone https://github.com/697black/BruteForceLab.git
 # الانتقال للمجلد
 cd BruteForceLab
 
-chmod +x hack-cpanel.py
+chmod +x BruteForce.py
 # تشغيل الأداة
-python3 bruteforce_lab.py
+python3 BruteForce.py
