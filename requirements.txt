@@ -1,0 +1,9 @@
+cat > requirements.txt << 'EOF'
+# BruteForceLab - Educational Tool
+# Requirements file for educational purposes only
+
+# No external dependencies required for basic version
+# Add packages here if needed in future:
+# colorama>=0.4.6
+# requests>=2.28.0
+EOF
