@@ -1,0 +1,13 @@
+# أنشئ ملف .gitignore خاص ببايثون
+curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore
+
+# أضف إضافات خاصة بمشروعك
+cat >> .gitignore << 'EOF'
+
+# إضافات خاصة بـ BruteForceLab
+*.secret
+password.txt
+credentials.json
+attack_results/
+simulation_output/
+EOF
